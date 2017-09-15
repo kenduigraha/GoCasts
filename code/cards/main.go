@@ -22,7 +22,3 @@ func main() {
 
 	fmt.Println(card)
 }
-
-func newCard() string {
-	return "Card from func newCard"
-}
