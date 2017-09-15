@@ -4,6 +4,7 @@ import "fmt"
 
 // var card string = "Card" -> it can
 // card := "Card" -> it can't
+var card int
 
 func main() {
 	// var card string = "King"
@@ -13,7 +14,7 @@ func main() {
 	// test := 1 // it can string
 	// fmt.Println(test)
 
-	var card int
+	// var card int
 	card = 1
 
 	fmt.Println(card)
