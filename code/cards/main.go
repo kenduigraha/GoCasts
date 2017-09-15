@@ -4,7 +4,7 @@ import "fmt"
 
 // var card string = "Card" -> it can
 // card := "Card" -> it can't
-var card int
+// var card int -> bisa declare di global
 
 func main() {
 	// var card string = "King"
@@ -15,7 +15,14 @@ func main() {
 	// fmt.Println(test)
 
 	// var card int
-	card = 1
+	// card = 1
+
+	// assign function to variable
+	var card string = newCard()
 
 	fmt.Println(card)
+}
+
+func newCard() string {
+	return "Card from func newCard"
 }
